@@ -17,8 +17,9 @@ body {
 
 .header-image{
     width: auto;
-    height: 260px;
+    height: 350px;
     padding: 60px;
+    border-radius: 70px;
 }
 
 .logo {
@@ -44,6 +45,7 @@ ul {
 p {
     padding: 0;
     margin: 0;
+    padding-top: 5px;
 }
 
 h1 {
@@ -77,5 +79,36 @@ a {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 5px;
+}
+
+.header-title {
+    margin-bottom: 5px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0;
+    gap: 30px;
+}
+
+.card,
+.card-img {
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    border: solid #3882F6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
 }
